@@ -29,7 +29,7 @@ function MainPage() {
                     disabled={getBalanceLoading} />
             </div>
             <div className='image-section'>
-                <img src={'/ether-website/public/image.png'} alt="" className={'image'} />
+                <img src={'image.png'} alt="" className={'image'} />
             </div>
         </div>
     );
