@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/ether-website/static/css/main.1fec093a.css",
+    "main.js": "/ether-website/static/js/main.69584eb4.js",
+    "static/js/453.951738e5.chunk.js": "/ether-website/static/js/453.951738e5.chunk.js",
+    "index.html": "/ether-website/index.html",
+    "main.1fec093a.css.map": "/ether-website/static/css/main.1fec093a.css.map",
+    "main.69584eb4.js.map": "/ether-website/static/js/main.69584eb4.js.map",
+    "453.951738e5.chunk.js.map": "/ether-website/static/js/453.951738e5.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1fec093a.css",
+    "static/js/main.69584eb4.js"
+  ]
+}
