@@ -1,0 +1,8 @@
+@import './views/styles/styles.scss';
+
+.App {
+  background-color: $back-goung-color;
+  height: 100vh;
+  width: 100vw;
+  overflow-y: auto;
+}

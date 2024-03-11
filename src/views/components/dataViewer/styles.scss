@@ -1,0 +1,81 @@
+@import '../../styles/styles.scss';
+
+.data-viewer-root {
+    width: 400px;
+    height:auto;
+    color:white;
+    margin-bottom: 2rem;
+}
+
+.data-viewer-header {
+    background-color: $blue-color;
+    width: 100%;
+    padding-left: $small-padding;
+    border-top-left-radius: $small-radius;
+    border-top-right-radius: $small-radius;
+    @extend .row-main-space-between-cross-center;
+}
+
+.data-viewer-header-icon{
+    width: 20px;
+    height: 20px;
+    margin: 0.5rem;
+    cursor: pointer;
+    color: $weak-color;
+    padding: 0.5rem;
+}
+
+.data-viewer-header-icon:hover{
+    border-radius: 0.5rem;
+    background-color: $strong-blue-color;
+}
+
+.data-viewer-header-title {
+    word-wrap: break-word;
+    font-size: 21px;
+    font-weight: bold;
+    color: $weak-color;
+    padding: 0px;
+    margin: 0px;
+}
+
+.data-viewer-body {
+    background-color: $weak-color;
+    width: 100%;
+    padding: $small-padding;
+    border-bottom-left-radius: $small-radius;
+    border-bottom-right-radius: $small-radius;
+    @extend .row-main-start-cross-center;
+}
+
+.data-viewer-body-content{
+    word-wrap: break-word;
+    font-size: $small-text-size;
+    color: $secondary;
+    padding: 0px;
+    margin: 0px;
+}
+
+.confirm-action-button-section {
+    width: 100%;
+    @extend .row-main-center-cross-center;
+    box-sizing: border-box;
+}
+
+.confirm-action-button {
+    height: 50px;
+    width: 120px;
+    @extend .row-main-center-cross-center;
+    @extend .place-holder;
+    cursor: pointer;
+}
+
+.confirm-action-samll-text {
+    word-wrap: break-word;
+    font-size: 8px;
+    font-weight: 100;
+    color: white;
+    padding: 0px;
+    text-align: left;
+    margin: 0px;
+}

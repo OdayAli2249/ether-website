@@ -1,0 +1,35 @@
+@import '../../styles/styles.scss';
+
+.description-root {
+    width: 100%;
+    padding: $large-padding;
+    @extend .column-main-start-cross-start;
+    margin-bottom: 2rem;
+}
+
+.description-title {
+    word-wrap: break-word;
+    font-size: 64px;
+    font-weight: bolder;
+    color: $medium-weak-color;
+    padding: 0px;
+    margin: 0;
+    margin-bottom: 2rem;
+}
+
+.description-container{
+    width: 100%;
+    border-radius: $small-radius;
+    background-color: $medium-weak-color;
+    padding: $medium-padding;
+    box-sizing: border-box;
+}
+
+.description-content {
+    word-wrap: break-word;
+    font-size: 28px;
+    font-weight: bold;
+    color: $secondary;
+    padding: 0px;
+    margin: 0px;
+}

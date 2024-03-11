@@ -1,0 +1,44 @@
+@import '../../styles/styles.scss';
+
+.main-page-root{
+    height: 100vh;
+    width: auto;
+    display: flex;
+}
+
+.viewers-section{
+    height: 100vh;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+  }
+  
+  .image-section{
+    height: 100vh;
+    width: 50%;
+    @extend .column-main-center-cross-center;
+  }
+
+  .image{
+    width: 600px;
+    height: 450px;
+  }
+
+
+  // for responsiveness
+  @media only screen and (max-width: 1200px) {
+    .main-page-root{
+      display: flex;
+      flex-direction: column;
+  }
+  
+  .viewers-section{
+      width: 100%;
+    }
+    
+    .image-section{
+      width: 100%;
+    }
+}
