@@ -2,6 +2,13 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Features
+Error handling (use can test error state by trying wrong api key in src/helpers/web3Client.ts)
+Responsive Page
+State managment
+Contain a unit test that run automatically when pushing on test branch
+Clean code
+
 ## Available Scripts
 
 In the project directory, you can run:
